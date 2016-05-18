@@ -1,0 +1,90 @@
+#time_bar {
+    width: 60px;
+    float: left;
+    margin-top: -8px;
+}
+
+#calendar {
+    width: 800px;
+    background-color: lightgrey;
+    margin-left: 60px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.event {
+    background-color: white;
+    position:absolute;
+    overflow: hidden;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 1px;
+}
+
+.timestamp {
+    height: 40px;
+}
+
+.hour {
+    font-weight: bold;
+}
+
+.halfhour {
+    font-weight: lighter;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.title {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+.hour>span {
+    color: gray;
+    font-size: xx-small;
+}
+
+.description {
+    font-size: smaller;
+    padding-left: 2px;
+}
+
+.address{
+    font-family: sans-serif;
+    font-size: x-small;
+    float: right;
+    padding-right: 2px;
+}
+
+.bluetag {
+    float: left;
+    height: 100%;
+    width: 4px;
+}
+
+.performance {
+    background-color: lightseagreen;
+}
+
+.panel {
+    background-color: red;
+}
+
+.speaker {
+    background-color: saddlebrown;
+}
+
+.party {
+    background-color: lightskyblue;
+}
+
+.workshop {
+    background-color: lightgreen;
+}
+
+.demo {
+    background-color: darkorange;
+}
